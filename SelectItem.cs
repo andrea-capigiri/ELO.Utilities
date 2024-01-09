@@ -8,6 +8,7 @@ namespace ELO.Utilities
 {
     public class SelectItem<TValue> : SelectKeyValue<TValue>
     {
+        public string Icon { get; set; }
         public bool Disabled { get; set; } = false;
         public bool Selected { get; set; } = false;
         public bool Visible { get; set; } = true;
